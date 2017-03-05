@@ -17,12 +17,12 @@ public class ProductBasicService {
 
 /*	    public Product_basic createProductBasic(Product_basic productbasic){
 	        return productBasicRepository.save(productbasic);
-	    }
+	    }*/
 
-	    public Product_basic findProductById(String product_id){
+	    public Productbasic findProductById(String product_id){
 	        MapId id = id("product_id", product_id);
 	        return productBasicRepository.findOne(id);
-	    }*/
+	    }
 
 	    public List<Productbasic> getProductsbasic(){
 	        return (List<Productbasic>) productBasicRepository.findAll();
@@ -35,12 +35,12 @@ public class ProductBasicService {
 	    public void deleteProduct_basic(String product_id){
 	        MapId id = id("product_id", product_id);
 	        productBasicRepository.delete(id);
-	    }
+	    }*/
 
-	    public boolean exitsProduct_basic(String product_id){
+	    public boolean exitsProductBasic(String product_id){
 	        MapId id = id("product_id", product_id);
 	        return productBasicRepository.exists(id);
-	    }*/
+	    }
 
 
 }
