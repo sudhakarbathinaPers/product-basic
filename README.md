@@ -33,3 +33,12 @@ sample insert statement: INSERT INTO product_basic (product_id, name) values ('1
 ## Running docker image
 
 docker run -p 9000:9000 -t sudhakarbathina/product-basic   
+
+# Routes
+
+[list all routes that this service supports]
+
+| Method | Route | Class | Description
+| ------ | ----- | ----- | -----------
+| GET | /item/basic/v1 | ProductController.products | Lists all ItemIds available along with their names
+| GET | /item/basic/v1/{id} | ProductController.productBasicById | Provides requested Itemid and name
