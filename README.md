@@ -1,18 +1,18 @@
 # product-basic
-# Introduction:
+## Introduction:
 This is a Restful microservice which provide basic product information of Item Id and Item name as shown below:
 [  {    "product_id": "789",    "name": "product3"  },  {    "product_id": "123",    "name": "product1"  },  {    "product_id": "456",    "name": "product2"  }]
 
-# Technology Stack
-Java 8
-SpringBoot
-SpringDataJPA
-SpringDataCassandra
-Maven
-Docker
+## Technology Stack
+* Java 8
+* SpringBoot
+* SpringDataJPA
+* SpringDataCassandra
+* Maven
+* Docker
 
-# Dependency
-# Apache cassandra
+## Dependency
+### Apache cassandra
 It requires the database up and running at node mentioned in application.properties. At present it uses EC2 instance.
 If not please create the below keyspace, table info and provide cassandra host info as part of cassandra.contactpoints in application.properties
 
