@@ -34,7 +34,7 @@ sample insert statement: INSERT INTO product_basic (product_id, name) values ('1
 
 docker run -p 9000:9000 -t sudhakarbathina/product-basic   
 
-# Routes
+## Routes
 
 [list all routes that this service supports]
 
