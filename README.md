@@ -6,7 +6,6 @@ This is a Restful microservice which provide basic product information of Item I
 ## Technology Stack
 * Java 8
 * SpringBoot
-* SpringDataJPA
 * SpringDataCassandra
 * Maven
 * Docker
